@@ -1,0 +1,24 @@
+{
+  "name": "naver-theme",
+  "displayName": "Naver theme",
+  "publisher": "inticoy",
+  "icon": "images/naver.png",
+  "repository": "https://github.com/inticoy/naver-theme",
+  "description": "Custom Naver theme by inticoy.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.4.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Naver",
+        "uiTheme": "vs",
+        "path": "./themes/Naver-color-theme.json"
+      }
+    ]
+  }
+}
